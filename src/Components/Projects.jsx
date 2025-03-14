@@ -46,7 +46,7 @@ const Projects = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full lg:max-w-[60%] flex justify-center"
+            className="w-full lg:max-w-[50%] flex justify-center h-full"
           >
             <WorkSlider />
           </motion.div>

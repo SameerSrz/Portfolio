@@ -3,7 +3,7 @@ import "./stars.scss";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 px-4 md:px-8 relative background">
+    <footer className="bg-gray-900 text-gray-300 py-10 px-4 md:px-8 relative background sm:py-9">
       {/* Stars stay in place without making footer large */}
       <div id="stars" />
       <div id="stars2" />
@@ -33,16 +33,16 @@ const Footer = () => {
           <a href="https://linkedin.com/in/SameerSrz" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition">
             <FaLinkedin className="text-white text-xl" />
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition">
+          {/* <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition">
             <FaTwitter className="text-white text-xl" />
-          </a>
+          </a> */}
           <a href="mailto:sameerriaz910@gmail.com" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition">
             <FaEnvelope className="text-white text-xl" />
           </a>
         </div>
 
         {/* Copyright */}
-        <p className="mt-6 text-sm text-gray-500">
+        <p className="mt-6 text-sm text-gray-500 pb-12">
           © {new Date().getFullYear()} Sameer Riaz. All rights reserved.
         </p>
       </div>

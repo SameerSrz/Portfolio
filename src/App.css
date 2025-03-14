@@ -909,3 +909,7 @@ body {
   #services {
     overflow: visible !important;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }

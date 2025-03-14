@@ -6,11 +6,10 @@ import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from "react-icons/hi2";
-import { NavLink } from "react-router-dom";
 
 // Navigation data
 export const navData = [
-  { name: "home", path: "#", icon: <HiHome /> },
+  { name: "home", path: "#home", icon: <HiHome /> },
   { name: "about", path: "#about", icon: <HiUser /> },
   { name: "services", path: "#services", icon: <HiRectangleGroup /> },
   { name: "work", path: "#work", icon: <HiViewColumns /> },
@@ -25,21 +24,17 @@ const Navbar = () => {
         {navData.map((link, index) => (
           <a
             key={index}
-            href={link.path}
-            className={({ isActive }) =>
-              `relative flex items-center group transition-all duration-300 hover:text-accent ${
-                isActive ? "text-accent" : ""
-              }`
-            }
+            href={link.path} // ✅ Correct way to navigate to sections
+            className="relative flex items-center group transition-all duration-300 hover:text-accent"
           >
             {/* Tooltip */}
-            <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
-              <div className="bg-white relative flex text-primary items-center p-[6px] rounded-[3px]">
-                <div className="text-[12px] leading-none font-semibold capitalize">
+            <div className="absolute right-full pr-4 hidden group-hover:flex">
+              <div className="bg-white text-primary flex items-center p-2 rounded-md shadow-lg relative">
+                <span className="text-sm font-semibold capitalize whitespace-nowrap">
                   {link.name}
-                </div>
-                {/* Triangle */}
-                <div className="border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2"></div>
+                </span>
+                {/* Triangle (Arrow) */}
+                <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-l-8 border-l-white border-y-8 border-y-transparent"></div>
               </div>
             </div>
             {/* Icon */}
