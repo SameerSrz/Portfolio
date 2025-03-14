@@ -1,12 +1,58 @@
-# React + Vite
+🚀 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Portfolio Website repository! This project showcases my skills, experience, and projects as a MERN Stack Developer & Software Engineer.
 
-Currently, two official plugins are available:
+🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fully responsive design
 
-## Expanding the ESLint configuration
+Modern UI/UX with animations
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Showcases my projects, skills, and experience
+
+Contact form integration
+
+Fast and optimized performance
+
+🛠️ Technologies Used
+
+Frontend: React.js, Tailwind CSS, Framer Motion
+
+
+Other Tools: Git, Vercel (Deployment)
+
+
+🚀 Getting Started
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/SameerSrz/portfolio.git
+cd portfolio
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Start the Development Server
+
+npm run dev
+
+The app will be available at http://localhost:5173/.
+
+🌍 Deployment
+
+This portfolio is deployed on Vercel. You can deploy your own version by running:
+
+vercel
+
+📬 Contact Me
+
+If you’d like to collaborate or discuss a project, feel free to reach out!
+
+Portfolio: [yourportfolio.com](https://sameer-srz.vercel.app/)
+
+Email: sameerriaz910@gmail.com
+
+LinkedIn: linkedin.com/in/sameersrz
+
+⭐ Feel free to fork this project, customize it, and use it for your own portfolio!
