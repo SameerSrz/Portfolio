@@ -72,7 +72,7 @@ const About = () => {
       <div id="stars3" />
       
       <div className="container mx-auto px-4 flex flex-col items-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-500">MERN Stack Developer</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-red-600">MERN Stack Developer</h2>
         <p className="max-w-lg mx-auto text-white/80 text-sm md:text-lg mt-4">
           I am a skilled MERN-Stack developer with nearly 3 years of experience in designing, developing, and deploying software applications.
         </p>

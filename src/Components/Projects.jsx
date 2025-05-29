@@ -7,15 +7,15 @@ const Projects = () => {
   return (
     <div
       id="work"
-      className="h-full bg-primary py-16 md:py-24 lg:py-36 flex flex-col items-center intro route bg-image background"
+      className="h-full bg-primary py-16 md:py-24 lg:py-36 flex flex-col items-center intro route bg-image background relative"
     >
       {/* Stars must be outside of content */}
       <div id="stars" className="absolute top-0 left-0 w-full h-full" />
       <div id="stars2" className="absolute top-0 left-0 w-full h-full" />
       <div id="stars3" className="absolute top-0 left-0 w-full h-full" />
 
-      <div className="container mx-auto px-6 md:px-10">
-        <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-x-8 items-center">
+      <div className="container mx-auto px-6 md:px-10 relative z-10">
+        <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-x-12 items-center">
           {/* Text Section */}
           <div className="text-center lg:text-left lg:w-[40%] flex flex-col">
             <motion.h1
@@ -46,7 +46,7 @@ const Projects = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full lg:max-w-[50%] flex justify-center h-full"
+            className="w-full lg:w-[60%] h-[300px] sm:h-[480px]"
           >
             <WorkSlider />
           </motion.div>
